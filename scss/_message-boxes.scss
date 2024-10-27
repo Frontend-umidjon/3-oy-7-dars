@@ -1,0 +1,119 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    border: 2px solid #E6E8EC;
+    padding: 40px 80px;
+}
+.faq__heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq__item{
+    height: 50px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.faq__question{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.faq__item:hover{
+    height: 100px;
+}
+.faq__item:hover .question-number{
+    color: #fff;
+}
+.faq__item:hover .fa-chevron-down{
+    transform: rotate(180deg);
+}
+.question-number{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--text-sy-color);
+}
+.question-text{
+    display: flex;
+    flex: 1;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.answer__text{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 20px;
+    color: #fff;
+    border-left: 1px solid #E6E8EC;
+}
+.fa-chevron-down{
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.5s ease ;
+}
+
+
+@media (max-width: 900px){
+    .faq{
+        padding: 40px 20px;
+    }
+    .faq__heading{
+        font-size: 40px;
+    }
+    .faq__question{
+        gap: 20px;
+    }
+    .question-number{
+        font-size: 14px;
+    }
+    .question-text{
+        font-size: 14px;
+    }
+    .answer__text{
+        font-size: 14px;    
+    }
+    .fa-chevron-down{
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 400px){
+    .faq{
+        padding: 40px 10px;
+        margin-top: -60px;
+    }
+    .faq__heading{
+        font-size: 30px;
+    }
+    .faq__question{
+        gap: 20px;
+    }
+    .question-number{
+        font-size: 14px;
+    }
+    .question-text{
+        font-size: 14px;
+    }
+    .answer__text{
+        font-size: 14px;    
+    }
+    .fa-chevron-down{
+        font-size: 12px;
+    }
+
+    
+}

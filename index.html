@@ -1,154 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS basics</title>
-    <link rel="icon" href="./assets/js-logo.png"/>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/main.min.css" />
-  </head>
 
-  <body>
-    <!-- HEADER -->
-    <header class="header" id="home">
-      <div class="container">
-        <nav class="navbar">
-          <a href="./index.html" class="navbar__logo">
-            <img class="navbar__img" src="./assets/js-logo.png" alt="logo" />
-          </a>
-          <ul class="navbar__list">
-            <li class="navbar__item">
-              <a href="#home" class="navbar__link">Home</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#history__pl" class="navbar__link">History</a>
-            </li>
-            <li class="navbar__item">
-              <a href="" class="navbar__link">Basics</a>
-            </li>
-            <li class="navbar__item">
-              <a href="" class="navbar__link">Message Boxes</a>
-            </li>
-            <li class="navbar__item">
-              <a href="" class="navbar__link">Ariphmetic Operators</a>
-            </li>
-            <li class="navbar__item">
-              <a href="" class="navbar__link">Data Types</a>
-            </li>
-          </ul>
-          <div>
-            <button class="navbar__btn">
-              <i class="fa-solid fa-bars-staggered"></i>
-            </button>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- HERO -->
-    <section class="hero__section">
-      <div class="hero">
-        <div class="container">
-          <div class="hero__content">
-            <h1 class="hero__title">JavaScript Basics</h1>
-            <p class="hero__subtitle">
-              Learn the fundamentals of JavaScript and unleash your web
-              development potential.
-            </p>
-            <a href="#basic" class="hero__btn">Get Started</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- History -->
-    <section>
-      <div class="container">
-        <div class="history" id="history__pl">
-          <div class="history__img">
-            <img src="./assets/brendan eich.jpg" alt="" />
-            <div class="history__author">
-              <h4>Brendan Eich</h4>
-              <p>JavaScript and Mozila founder</p>
-            </div>
-          </div>
-          <div class="history__content">
-            <h2 class="history__title">History</h2>
-            <p class="history__text">
-              Brendan Eich developed JavaScript, a computer language, in just
-              ten days in May 1995. Initially called Mocha, then LiveScript, it
-              finally became known as JavaScript. It was designed for the
-              client-side of websites to add dynamic and interactive elements to
-              static HTML pages.
-            </p>
-            <p class="history__text">
-              JavaScript was first implemented in Netscape Navigator, the most
-              popular browser at the time. Microsoft quickly adopted it for
-              Internet Explorer. Its ease of use and unique position as the only
-              client-side scripting language made JavaScript popular among web
-              developers.
-              <br />
-              <br />
-              Over the years, JavaScript’s popularity grew, and it was used to
-              create a variety of web applications, including online games,
-              dynamic menus, and form validation. A new version, ECMAScript 4,
-              was planned in 2002 but was abandoned due to disagreements among
-              browser vendors.
-              <br />
-              <br />
-              Today, JavaScript is one of the most popular programming
-              languages, used by about 95% of websites. It is not only crucial
-              for web development but also for creating server-side
-              applications, desktop and mobile apps, and even programming robots
-              and hardware.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Basics -->
-    <section>
-      <div class="container">
-        <div class="basics" id="basic">
-            <div class="basics__content">
-                <h2 class="basics__title">Basics</h2>
-                <div class="basics__list">
-                    <div class="basics__item">
-                        <i class="fa-regular fa-folder-open"></i>
-                        <h3 class="basics__item__title">Variables</h3>
-                        <p class="basic__item__description">Store and manipulate data using variables.</p>
-                    </div>
-                    <div class="basics__item">
-                        <i class="fa-regular fa-folder-open"></i>
-                        <h3 class="basics__item__title">Variables</h3>
-                        <p class="basic__item__description">Store and manipulate data using variables.</p>
-                    </div>
-                    <div class="basics__item">
-                        <i class="fa-regular fa-folder-open"></i>
-                        <h3 class="basics__item__title">Variables</h3>
-                        <p class="basic__item__description">Store and manipulate data using variables.</p>
-                    </div>
-                    <div class="basics__item">
-                        <i class="fa-regular fa-folder-open"></i>
-                        <h3 class="basics__item__title">Variables</h3>
-                        <p class="basic__item__description">Store and manipulate data using variables.</p>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="basics__img">
-                <img src="./assets/basics.png" alt="">
-            </div>
-          
-        </div>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS basics</title>
+  <link rel="icon" href="./assets/js-logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
 
-    <script src="./js/scripts.js"></script>
-  </body>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="./index.html" class="navbar__logo">
+          <img class="navbar__img" src="./assets/js-logo.png" alt="logo" />
+        </a>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#history__pl" class="navbar__link">History</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#basic" class="navbar__link">Basics</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#message" class="navbar__link">Message Boxes</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#operator" class="navbar__link">Ariphmetic Operators</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#data" class="navbar__link">Data Types</a>
+          </li>
+        </ul>
+        <div>
+          <button class="navbar__btn">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- HERO -->
+  <section class="hero__section" id="home">
+    <div class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">JavaScript Basics</h1>
+          <p class="hero__subtitle">
+            Learn the fundamentals of JavaScript and unleash your web
+            development potential.
+          </p>
+          <a href="#basic" class="hero__btn">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- History -->
+  <section>
+    <div class="container" id="history__pl">
+      <div class="history">
+        <div class="history__img">
+          <img src="./assets/brendan eich.jpg" alt="" />
+          <div class="history__author">
+            <h4>Brendan Eich</h4>
+            <p>JavaScript and Mozila founder</p>
+          </div>
+        </div>
+        <div class="history__content">
+          <h2 class="history__title">History</h2>
+          <p class="history__text">
+            Brendan Eich developed JavaScript, a computer language, in just
+            ten days in May 1995. Initially called Mocha, then LiveScript, it
+            finally became known as JavaScript. It was designed for the
+            client-side of websites to add dynamic and interactive elements to
+            static HTML pages.
+          </p>
+          <p class="history__text">
+            JavaScript was first implemented in Netscape Navigator, the most
+            popular browser at the time. Microsoft quickly adopted it for
+            Internet Explorer. Its ease of use and unique position as the only
+            client-side scripting language made JavaScript popular among web
+            developers.
+            <br />
+            <br />
+            Over the years, JavaScript’s popularity grew, and it was used to
+            create a variety of web applications, including online games,
+            dynamic menus, and form validation. A new version, ECMAScript 4,
+            was planned in 2002 but was abandoned due to disagreements among
+            browser vendors.
+            <br />
+            <br />
+            Today, JavaScript is one of the most popular programming
+            languages, used by about 95% of websites. It is not only crucial
+            for web development but also for creating server-side
+            applications, desktop and mobile apps, and even programming robots
+            and hardware.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Basics -->
+  <section id="basic">
+    <div class="container">
+      <div class="basics">
+        <div class="basics__content">
+          <h2 class="basics__title">Basics</h2>
+          <div class="basics__list">
+            <div class="basics__item">
+              <i class="fa-regular fa-folder-open"></i>
+              <h3 class="basics__item__title">Variables</h3>
+              <p class="basic__item__description">Store and manipulate data using variables.</p>
+            </div>
+            <div class="basics__item">
+              <i class="fa-solid fa-folder-tree"></i>
+              <h3 class="basics__item__title">Data Types</h3>
+              <p class="basic__item__description">Understanding different data types like numbers, strings, and
+                booleans.</p>
+            </div>
+            <div class="basics__item">
+              <i class="fa-solid fa-star-of-life"></i>
+              <h3 class="basics__item__title">Operators</h3>
+              <p class="basic__item__description">Performing calculations using operators like addition, subtraction,
+                multiplication, and division.</p>
+            </div>
+            <div class="basics__item">
+              <i class="fa-solid fa-terminal"></i>
+              <h3 class="basics__item__title">Basic 'console.log' command</h3>
+              <p class="basic__item__description">This command is used to display messages in the console.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="basics__img">
+          <img src="./assets/basics.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Message Boxes -->
+  <section id="message">
+    <div class="container">
+      <div class="faq">
+        <h2 class="faq__heading">Message Boxes</h2>
+        <div class="faq__item">
+          <div class="faq__question">
+            <p class="question-text">What are message boxes?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq__answer">
+            <p class="answer__text">Message boxes are pop-up windows that display messages or prompts to the user.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <div class="faq__question">
+            <p class="question-text">Using the alert() function</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq__answer">
+            <p class="answer__text">The `alert()` function displays a message box with an OK button, which the user must
+              click to dismiss it.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <div class="faq__question">
+            <p class="question-text">Other types of message boxes</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq__answer">
+            <p class="answer__text">JavaScript offers various methods for displaying different types of message boxes,
+              such as confirmation boxes (using `confirm()`) and prompt boxes (using `prompt()`).</p>
+          </div>
+        </div>
+
+
+      </div>
+  </section>
+  <!-- Operators -->
+  <section id="operator">
+    <div class="container">
+      <div class="operators">
+        <h2 class="operators__title">Operators</h2>
+        <div class="operators__item">
+          <h3 class="operators__item__title">Arithmetic Operators</h3>
+          <p class="operators__item__description">Performing calculations using operators like addition, subtraction,
+            multiplication, and division.</p>
+        </div>
+        <table>
+          <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+          <tr>
+            <td>+</td>
+            <td>Addition</td>
+            <td>5 + 5 = 10</td>
+          </tr>
+          <tr>
+            <td>-</td>
+            <td>Subtraction</td>
+            <td>5 - 5 = 0</td>
+          </tr>
+          <tr>
+            <td>*</td>
+            <td>Multiplication</td>
+            <td>5 * 5 = 25</td>
+          </tr>
+          <tr>
+            <td>/</td>
+            <td>Division</td>
+            <td>5 / 5 = 1</td>
+          </tr>
+          <tr>
+            <td>%</td>
+            <td>Modulus</td>
+            <td>5 % 5 = 0</td>
+          </tr>
+          <tr>
+            <td>**</td>
+            <td>Exponent</td>
+            <td>5 ** 5 = 25</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- Data Types -->
+  <section id="data">
+    <div class="container">
+      <h2 class="data__title">Variables and Data Types</h2>
+      <div class="data">
+        
+        <div class="variable__item">
+          <h2 class="variable__item__title">Variables</h2>
+          <p class="variable__item__text">Variables are containers for storing data. They help us to store and manipulate
+            data in our code.</p>
+            <ul>
+              <li>Declaration</li>
+              <li>Assignment</li>
+              <li>Data Types</li>
+            </ul>
+        </div>
+        <div class="data__item">
+          <h2 class="data__item__title">Data Types</h2>
+          <p class="data__item__text">Data types are used to store data in JavaScript. There are two main data types
+            in JavaScript:</p>
+           <div class="data__collection">
+            <div class="collection__prim">
+              <h5>Primitive Data Types</h5>
+              <ul>
+                <li>Numbers</li>
+                <li>Strings</li>
+                <li>Booleans</li>
+                <li>Null</li>
+                <li>Undefined</li>
+                <li>Symbol</li>
+                <li>BigInt</li>
+              </ul> 
+            </div>
+            <div class="collection__non-prim">
+              <h5>Non-Primitive Data Types</h5>
+              <ul>
+                <li>Arrays</li>
+                <li>Objects</li>
+                <li>Functions</li>
+              </ul>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+   <footer class="footer">
+    <div class="container">
+     <div class="footer__content">
+      <img src="./assets/js-logo.png" alt="">
+     <div class="footer__text">
+      <a href="https://www.w3schools.com/js/default.asp">More Info</a>
+      <p class="footer__copyright">Copyright &copy; 2024. All Rights Reserved.</p>
+     </div>
+     <div class="footer__social">
+      <div class="socials">
+        <a href="https://github.com/Frontend-umidjon" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/umidjon-front-end/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/umidjon.frontend/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/umidjon.frontend/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <div class="number">
+        <a number="tel:+998905936212">70 59 36 212</a>
+      </div>
+    </div>
+     </div>
+    </div>
+    <h3  class="footer__author">Made by <a href="https://github.com/Frontend-umidjon" target="_blank">Kengashev Umidjon
+      <i class="fa-brands fa-github"></i>
+    </a></h3>
+    
+   </footer>
+  <script src="./js/scripts.js"></script>
+</body>
+
 </html>
