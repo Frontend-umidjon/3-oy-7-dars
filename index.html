@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JS basics</title>
+    <link rel="icon" href="./assets/js-logo.png"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -20,7 +21,7 @@
       <div class="container">
         <nav class="navbar">
           <a href="./index.html" class="navbar__logo">
-            <img class="navbar__img" src="./assets/js-logo-sm.png" alt="logo" />
+            <img class="navbar__img" src="./assets/js-logo.png" alt="logo" />
           </a>
           <ul class="navbar__list">
             <li class="navbar__item">
@@ -52,14 +53,15 @@
     </header>
     <!-- HERO -->
     <section class="hero__section">
-      <div class="container">
-        <div class="hero">
+      <div class="hero">
+        <div class="container">
           <div class="hero__content">
-            <h1 class="hero__title">Learn Basic JavaScript</h1>
+            <h1 class="hero__title">JavaScript Basics</h1>
             <p class="hero__subtitle">
-              This site provides you basic knowledge about JavaScript that will
-              be fundament of your future career.
+              Learn the fundamentals of JavaScript and unleash your web
+              development potential.
             </p>
+            <a href="#basic" class="hero__btn">Get Started</a>
           </div>
         </div>
       </div>
@@ -78,29 +80,74 @@
           <div class="history__content">
             <h2 class="history__title">History</h2>
             <p class="history__text">
-                Brendan Eich developed JavaScript, a computer language, in just ten days in May 1995. Initially called Mocha, then LiveScript, it finally became known as JavaScript. It was designed for the client-side of websites to add dynamic and interactive elements to static HTML pages.
+              Brendan Eich developed JavaScript, a computer language, in just
+              ten days in May 1995. Initially called Mocha, then LiveScript, it
+              finally became known as JavaScript. It was designed for the
+              client-side of websites to add dynamic and interactive elements to
+              static HTML pages.
             </p>
             <p class="history__text">
-                JavaScript was first implemented in Netscape Navigator, the most popular browser at the time. Microsoft quickly adopted it for Internet Explorer. Its ease of use and unique position as the only client-side scripting language made JavaScript popular among web developers.
-                <br>
-                <br>
-                Over the years, JavaScript’s popularity grew, and it was used to create a variety of web applications, including online games, dynamic menus, and form validation. A new version, ECMAScript 4, was planned in 2002 but was abandoned due to disagreements among browser vendors.
-                <br>
-                <br>
-                Today, JavaScript is one of the most popular programming languages, used by about 95% of websites. It is not only crucial for web development but also for creating server-side applications, desktop and mobile apps, and even programming robots and hardware.
-              </p>
+              JavaScript was first implemented in Netscape Navigator, the most
+              popular browser at the time. Microsoft quickly adopted it for
+              Internet Explorer. Its ease of use and unique position as the only
+              client-side scripting language made JavaScript popular among web
+              developers.
+              <br />
+              <br />
+              Over the years, JavaScript’s popularity grew, and it was used to
+              create a variety of web applications, including online games,
+              dynamic menus, and form validation. A new version, ECMAScript 4,
+              was planned in 2002 but was abandoned due to disagreements among
+              browser vendors.
+              <br />
+              <br />
+              Today, JavaScript is one of the most popular programming
+              languages, used by about 95% of websites. It is not only crucial
+              for web development but also for creating server-side
+              applications, desktop and mobile apps, and even programming robots
+              and hardware.
+            </p>
           </div>
         </div>
       </div>
     </section>
     <!-- Basics -->
-     <section>
-        <div class="container">
-           <div class="basics">
-            <h2 class="basics__title">Basics</h2>
-           </div>
+    <section>
+      <div class="container">
+        <div class="basics" id="basic">
+            <div class="basics__content">
+                <h2 class="basics__title">Basics</h2>
+                <div class="basics__list">
+                    <div class="basics__item">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <h3 class="basics__item__title">Variables</h3>
+                        <p class="basic__item__description">Store and manipulate data using variables.</p>
+                    </div>
+                    <div class="basics__item">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <h3 class="basics__item__title">Variables</h3>
+                        <p class="basic__item__description">Store and manipulate data using variables.</p>
+                    </div>
+                    <div class="basics__item">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <h3 class="basics__item__title">Variables</h3>
+                        <p class="basic__item__description">Store and manipulate data using variables.</p>
+                    </div>
+                    <div class="basics__item">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <h3 class="basics__item__title">Variables</h3>
+                        <p class="basic__item__description">Store and manipulate data using variables.</p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="basics__img">
+                <img src="./assets/basics.png" alt="">
+            </div>
+          
         </div>
-     </section>
+      </div>
+    </section>
 
     <script src="./js/scripts.js"></script>
   </body>
